@@ -10,7 +10,7 @@ app.use(cors())
 
 
 app.get('/',(req,res)=>{
-  res.send('entha sanjay ramaswami')
+  res.send('Hello sreerag kb how is it')
 })     
 
 const userRouter=require('./Router/userRouter')
